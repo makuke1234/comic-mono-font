@@ -11,7 +11,7 @@ To build it yourself you'll have to install [FontForge]() and also download [Com
   </a>
 </p>
 
-*Picture slightly irrelevant :) *
+<em>Picture slightly irrelevant :)</em>
 
 
 ## Download
