@@ -1,5 +1,9 @@
 # Comic Mono
-A legible monospace font... the very typeface you’ve been trained to recognize since childhood. This font is a fork of [Shannon Miwa](https://github.com/shannpersand)’s [Comic Shanns](https://github.com/shannpersand/comic-shanns) (version 1).
+A legible monospace font... Now with more glyphs and Python3 support!
+This font is a fork of [dtinth](https://github.com/dtinth)’s [Comic Mono Font](https://github.com/dtinth/comic-mono-font) (version 0.1.1).
+
+To build it yourself you'll have to install [FontForge]() and also download [Comic Shanns v2](https://github.com/shannpersand/comic-shanns)
+&amp; [Cousine](https://fonts.google.com/specimen/Cousine)
 
 <p class="website-hidden">
   <a href="https://dtinth.github.io/comic-mono-font/">
@@ -7,41 +11,25 @@ A legible monospace font... the very typeface you’ve been trained to recognize
   </a>
 </p>
 
+
 ## Download
-- [ComicMono.ttf](https://dtinth.github.io/comic-mono-font/ComicMono.ttf)
-- [ComicMono-Bold.ttf](https://dtinth.github.io/comic-mono-font/ComicMono-Bold.ttf)
+- [ComicMono.ttf](https://github.com/makuke1234/comic-mono-font/raw/master/ComicMono.ttf)
+- [ComicMono-Bold.ttf](https://github.com/makuke1234/comic-mono-font/raw/master/ComicMono-Bold.ttf)
 
-## Differences from Comic Shanns
-1. All glyphs have been [adjusted](https://www.reddit.com/r/programming/comments/kj0prs/comic_mono_font/ghc7krt/?utm_source=reddit&utm_medium=web2x&context=3) to have exactly the same width (using code based on [monospacifier](https://github.com/cpitclaudel/monospacifier)).
-2. The glyph metrics have been adjusted to make it display better alongside system font, based on [Cousine](https://fonts.google.com/specimen/Cousine)’s metrics.
-3. The name is changed to `Comic Mono`.
-4. A bold version of the font is generated using [FontForge’s Embolden](https://fontforge.github.io/Styles.html#Embolden) operation.
 
-I have no font creation skills; I’m just a software developer. This font family is created by patching the original font, [Comic Shanns (v1)](https://github.com/shannpersand/comic-shanns), using a Python script, [`generate.py`](generate.py).
+## Differences from Comic Mono Font
+1. The code has been modified slightly so that Python 3 is now supported
+2. The modification process is based on the much newer and improved Comic Shanns v2
+3. From the newer version of Comic Shanns comes also the much waited larger variety of glyphs
+
 
 ## What does it look like?
 <p class="website-hidden">
   <a href="https://dtinth.github.io/comic-mono-font/#what-does-it-look-like">
-    Check it out!
+    Check dtinth's website!
   </a>
 </p>
 
-```python
-{% include_relative generate.py %}
-```
-
-## CDN
-You can use this font in your web pages by including the stylesheet. CDN is provided by [jsDelivr](https://www.jsdelivr.com/package/npm/comic-mono).
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
-```
-
-## npm Package
-The contents of this package is also [published to npm](https://www.npmjs.com/package/comic-mono), although the font files are not optimized. See fontsource package (below) for a better option.
-
-## Packages published by third parties
-- Fontsource: [@fontsource/comic-mono](https://www.npmjs.com/package/@fontsource/comic-mono) ([thanks @DecliningLotus](https://github.com/fontsource/fontsource/pull/117))
-- Arch Linux AUR: [ttf-comic-mono-git](https://aur.archlinux.org/packages/ttf-comic-mono-git/) (maintained by DBourgeoisat)
 
 ## License
 It is licensed under the [MIT License](LICENSE).
