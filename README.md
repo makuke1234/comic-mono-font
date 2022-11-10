@@ -10,6 +10,7 @@ To build it yourself you'll have to install [FontForge]() and also download [Com
     <img src="https://repository-images.githubusercontent.com/164606802/cd83d680-894c-11e9-83f7-c353c70df1cb" alt="Screenshot">
   </a>
 </p>
+*Picture slightly irrelevant :)*
 
 
 ## Download
